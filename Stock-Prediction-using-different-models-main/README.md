@@ -26,7 +26,7 @@ The resulting error from all models built and tested are shown in the bar graph 
 
 
 ### Data
-The data was pulled using the yfinance API. The time period of the data is the entire existance of SPY ETF in January of 1993 until today's date of 9/1/2020. To update this data simply uncomment all cells in the "update data" cell and rerun. If enough time has passed you may want to alter the train,test,validate data splits.
+The data was pulled using the yfinance API. The time period of the data is the entire existance of SPY ETF in January of 1993 until   date of 9/1/2020. To update this data simply uncomment all cells in the "update data" cell and rerun. If enough time has passed you may want to alter the train,test,validate data splits.
 
 This project was a univariate time series focused on predicting the close price of the next day through various methods. The data is in daily time steps. As you can see the data is just shy of 7,000 data points. The graph below shows the entire data range and how it is broken up into the train,validate,test segments.
 
